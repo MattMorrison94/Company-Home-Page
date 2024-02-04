@@ -181,6 +181,7 @@ a:hover {
     height: auto;
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: rgba(180, 184, 181, 0.4)
 }
 
 .services-container-box-grid {
@@ -197,13 +198,74 @@ a:hover {
     width: 150px;
 }
 
+.service i {
+    border: solid 1px lightgray;
+    border-radius: 50%;
+    background-color: lightgray;
+    padding: 20px;
+
+}
+
 .service p {
     padding-top: 15px;
     font-size: 1.1125em;
+    letter-spacing: 1px;
+    line-height: 1.15;
 }
 
 .about-to-top {
     float: right;
     padding-right: 20px;
     padding-bottom: 20px;
+}
+
+.contact {
+    background-image: url(https://as1.ftcdn.net/v2/jpg/06/28/71/94/1000_F_628719468_EAyn2Oq0jcq9xvBUaIYYus1payw75qMo.jpg);
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(180, 184, 181, 0.4)
+}
+
+.contact h2 {
+    padding-left: 150px;
+    color: white;
+}
+
+.contact-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.con-info {
+    text-align: center;
+    border: solid 1px lightgrey;
+    border-radius: 10px;
+    background-color: lightgray;
+    padding: 20px
+}
+
+.con-info h4 {
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+.con-info i {
+    border: solid 1px lightgray;
+    border-radius: 50%;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.con-info p {
+    font-size: 1.05em;
+    letter-spacing: 1px;
+    padding: 5px;
 }
