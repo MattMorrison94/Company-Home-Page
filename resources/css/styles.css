@@ -195,7 +195,14 @@ a:hover {
 .service {
     text-align: center;
     padding: 20px;
+    height: 250px;
     width: 150px;
+}
+
+@media only screen and (max-width: 486px) {
+    .service {
+        height: auto;
+    }
 }
 
 .service i {
