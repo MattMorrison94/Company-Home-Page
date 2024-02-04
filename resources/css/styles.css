@@ -180,7 +180,7 @@ a:hover {
 .services {
     height: auto;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     background-color: rgba(180, 184, 181, 0.4)
 }
 
@@ -213,11 +213,11 @@ a:hover {
     line-height: 1.15;
 }
 
-.about-to-top {
+/*.about-to-top {
     float: right;
     padding-right: 20px;
     padding-bottom: 20px;
-}
+} */
 
 .contact {
     background-image: url(https://as1.ftcdn.net/v2/jpg/06/28/71/94/1000_F_628719468_EAyn2Oq0jcq9xvBUaIYYus1payw75qMo.jpg);
@@ -230,7 +230,7 @@ a:hover {
 }
 
 .contact h2 {
-    padding-left: 150px;
+    text-align: center;
     color: white;
 }
 
