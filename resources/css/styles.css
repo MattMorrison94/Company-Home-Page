@@ -12,10 +12,11 @@
 }
 
 header {
-    background-color: lightgray;
+    background-color: rgba(180, 184, 181, 0.4);
     height: 125px;
     padding-bottom: 20px;
     text-align: center;
+    width: 100%;
 }
 
 .title h1 {
@@ -47,11 +48,16 @@ a {
 
 a:hover {
     cursor: pointer;
-    color: blue;
+    color: white;
     text-decoration: underline;
+    border: solid 1px black;
+    background-color: black;
+    border-radius: 10px;
+    padding: 7px;
+    transition: all .1s ease-in;
 }
 
-@media only screen and (max-width: 468px) {
+@media only screen and (max-width: 486px) {
     .title h1 {
         font-size: 2.75rem;
     }
@@ -97,9 +103,11 @@ a:hover {
 }
 
 .about-section {
-    height: 800px;
+    height: auto;
     width: 100%;
     padding-top: 30px;
+    padding-bottom: 50px;
+    background-color: rgba(180,184,181, 0.4);
 }
 
 .section-heading h2 {
@@ -130,7 +138,9 @@ a:hover {
     max-width: 284px;
     margin: 10px;
     padding:20px;
-    border: solid 1px black;
+    border: solid 1px lightgray;
+    background-color: lightgray;
+    border-radius: 10px;
     height: 400px;
     overflow: scroll;
     text-align: center;
@@ -141,7 +151,59 @@ a:hover {
     width: 180px;
 }
 
+.name {
+    font-family: 'Protest Riot', sans-serif;
+    font-size: 1.25em;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+
+.position-title {
+    font-weight: bolder;
+    font-size: .95em;
+    letter-spacing: .5px
+}
+
 .team p {
     min-width: 200px;
     padding-top: 20px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 1.25;
+}
+
+.button-to-top {
+    float: right;
+    padding-right: 20px;
+}
+
+.services {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.services-container-box-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+.service {
+    text-align: center;
+    padding: 20px;
+    width: 150px;
+}
+
+.service p {
+    padding-top: 15px;
+    font-size: 1.1125em;
+}
+
+.about-to-top {
+    float: right;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
