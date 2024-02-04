@@ -270,3 +270,35 @@ a:hover {
     letter-spacing: 1px;
     padding: 5px;
 }
+
+/* Footer Styling */ 
+
+footer p {
+    font-family: 'Protest Riot';
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 20px;
+}
+
+.navlinks-lists {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px
+}
+
+.footer-nav-container {
+    margin: 20px;
+    padding-bottom: 10px;
+}
+
+.footer-nav-container ol li{
+    list-style: none;
+    text-align: center;
+}
+
+.footer-nav-container h4 {
+    padding: 15px;
+    text-align: center;
+}
+
