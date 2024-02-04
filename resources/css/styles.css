@@ -141,8 +141,8 @@ a:hover {
     border: solid 1px lightgray;
     background-color: lightgray;
     border-radius: 10px;
-    height: 400px;
-    overflow: scroll;
+    height: 460px;
+    overflow:visible;
     text-align: center;
 }
 
@@ -219,12 +219,6 @@ a:hover {
     letter-spacing: 1px;
     line-height: 1.15;
 }
-
-/*.about-to-top {
-    float: right;
-    padding-right: 20px;
-    padding-bottom: 20px;
-} */
 
 .contact {
     background-image: url(https://as1.ftcdn.net/v2/jpg/06/28/71/94/1000_F_628719468_EAyn2Oq0jcq9xvBUaIYYus1payw75qMo.jpg);
