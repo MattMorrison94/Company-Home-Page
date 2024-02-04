@@ -1,0 +1,147 @@
+/* FONTS */
+
+/* font-family: 'Protest Riot', sans-serif;
+    font-family: 'Roboto', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: lightgray;
+    height: 125px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.title h1 {
+    font-family: 'Protest Riot', sans-serif;
+    display:flex;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+    /*color: */
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 1.5px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+a {
+    font-size: 1.25em;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1.125px;
+}
+
+a:hover {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 468px) {
+    .title h1 {
+        font-size: 2.75rem;
+    }
+
+    ul {
+        display: none;
+    }
+}
+
+.main-landing {
+    height: 600px;
+    width: 100%;
+    background-image: url("https://prestigeandperformance.com.au/wp-content/uploads/2022/02/Floor-shot-edited.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    height: auto;
+    width: 75%;
+    min-width: 50%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.main-content h2 {
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+    font-family: 'Protest Riot', sans-serif;
+    padding: 10px;
+}
+
+.main-content p {
+    text-align: center;
+    font-size: 1.125em;
+    min-width: 150px;
+    line-height: 1.5;
+}
+
+.about-section {
+    height: 800px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+.section-heading h2 {
+    font-family: 'Protest Riot';
+    font-size: 2rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.subheading h3 {
+    font-size: 1.25em;
+    font-family: 'Protest Riot', sans-serif;
+    letter-spacing: 1.25px;
+    text-align: center;
+    padding: 25px;
+}
+
+.team-container-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+.team {
+    flex: 1;
+    min-width: 200px;
+    max-width: 284px;
+    margin: 10px;
+    padding:20px;
+    border: solid 1px black;
+    height: 400px;
+    overflow: scroll;
+    text-align: center;
+}
+
+.team img {
+    height: 150px;
+    width: 180px;
+}
+
+.team p {
+    min-width: 200px;
+    padding-top: 20px;
+}
