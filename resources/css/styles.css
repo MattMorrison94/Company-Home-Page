@@ -39,14 +39,14 @@ ul {
     list-style: none;
 }
 
-a {
+.button {
     font-size: 1.25em;
     text-decoration: none;
     color: black;
     letter-spacing: 1.125px;
 }
 
-a:hover {
+.button:hover {
     cursor: pointer;
     color: white;
     text-decoration: underline;
@@ -295,6 +295,7 @@ footer p {
 .footer-nav-container ol li{
     list-style: none;
     text-align: center;
+    padding: 2px;
 }
 
 .footer-nav-container h4 {
@@ -302,3 +303,13 @@ footer p {
     text-align: center;
 }
 
+.footer-nav-container a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+
+.copyright {
+    font-family: 'Roboto';
+    font-size: 15px;
+}
