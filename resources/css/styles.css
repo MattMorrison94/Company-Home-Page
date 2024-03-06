@@ -243,6 +243,46 @@ ul {
     padding: 50px;
 }
 
+@media only screen and (max-width: 768px) {
+    .con-info {
+        width: 80%; 
+        margin: 10px auto; 
+        max-width: 400px; 
+    }
+
+    .con-info i {
+        padding: 15px; 
+    }
+
+    .con-info h4 {
+        font-size: 1em; 
+    }
+
+    .con-info p {
+        font-size: 0.9em; 
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .con-info {
+        width: 90%; 
+        margin: 10px auto; 
+        max-width: none; 
+    }
+
+    .con-info i {
+        padding: 10px;
+    }
+
+    .con-info h4 {
+        font-size: 0.9em; 
+    }
+
+    .con-info p {
+        font-size: 0.8em; 
+    }
+}
+
 .con-info {
     text-align: center;
     border: solid 1px lightgrey;
